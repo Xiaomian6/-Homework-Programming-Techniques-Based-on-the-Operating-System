@@ -1,6 +1,14 @@
 # Programming_Techniques_Based_on_the_Operating_System
 [Homework]Programming Techniques Based on the Operating System
 
+<基于Linux API编程
+
+~~~
+  $ g++ -o [编译后的文件名] [需要编译的文件]
+  eg：
+  $ g++ -o test1 1.cpp
+~~~
+
 ## Homework1
 - 当设定O_APPEND标志后，能否使用lseek函数修改当前文件偏移量？若能修改，读写操作发生在文件何处？
 
